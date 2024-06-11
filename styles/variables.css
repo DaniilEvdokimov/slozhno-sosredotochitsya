@@ -2,3 +2,14 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+    --accent-color: #ff0070;
+    --accent-text-color: #000028;
+    --title-color: #db00ff;
+    --text-color: #f1b2ce;
+    --font-family: IBM Plex Mono;
+    --decoration-color: #ff0070;
+    --button-hover-color: rgba(255, 0, 112, 0.4);
+    --background-color: #000028;
+    --background-image: url(../images/cover-image-dark.png);
+}
