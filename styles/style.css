@@ -199,3 +199,69 @@
     grid-row-start: 2;
     column-gap: 20px;
 }
+
+.how {
+    display: grid;
+    grid-template-columns: 1fr 66%;
+    gap: 20px;
+    margin-block-start: 80px;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.how .card__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.how .card__list .title-decor {
+    font-weight: normal;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: min-content repeat(3, min-content);
+    grid-auto-flow: row dense;
+    gap: 20px;
+    margin-block-start: 80px;
+}
+
+.gallery .title-decor {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sunset-image {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+.ice-cream-image {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+}
+
+.tape-image {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+}
+
+.street-image {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
