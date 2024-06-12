@@ -184,3 +184,18 @@
 .card__link:active {
     border: 1px solid var(--text-color);
 }
+
+.what {
+    display: grid;
+    grid-template-columns: 1fr 66%;
+    row-gap: 20px;
+    margin-block-start: 80px;
+}
+
+.what .card__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    column-gap: 20px;
+}
