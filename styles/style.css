@@ -27,9 +27,11 @@
 .header__rec-icon::after {
     content: "";
     position: absolute;
+    flex-shrink: 0;
     inline-size: 9px;
     block-size: 9px;
-    margin: 8px 0 0 10px;
+    top: 8px;
+    right: -20px;
     border-radius: 50%;
     box-shadow: 0 0 4px 2px var(--accent-color);
     background-color: var(--accent-color);
@@ -92,7 +94,7 @@
 .header__theme-menu-button {
     justify-content: center;
     align-items: center;
-    padding: 0px 13px;
+    padding: 0 13px;
     min-block-size: 26px;
     border: none;
     line-height: 18px;
@@ -201,7 +203,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-end: span 2;
     grid-row-start: 2;
-    column-gap: 20px;
+    gap: 20px 20px;
 }
 
 .how {
@@ -326,7 +328,7 @@
         inset: auto auto 10px 10px;
     }
 
-    .rec {
+    .header__rec-icon {
         inset: 10px 38px auto auto;
     }
 
